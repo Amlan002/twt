@@ -1,0 +1,13 @@
+twitter-to-kafka-service:
+  twitter-keywords:
+    -Java
+    -Microservices
+    -Spring
+    -Kafka
+    -Elasticsearch
+  msg-body: Welcome To Java
+  enable-v2-tweets: true
+  enable-mock-tweets: false
+  twitter-v2-base-url: https://api.twitter.com/2/tweets/search/stream?tweet.fields=created_at&expansions=author_id
+  twitter-v2-rules-base-url: https://api.twitter.com/2/tweets/search/stream/rules
+  twitter-v2-bearer-token: AAAAAAAAAAAAAAAAAAAAADL3cAEAAAAAld45kfeZioINNux7%2Fd4djnTzaR0%3DjSpu9Nt1JUJGRtssozjhoeh9aYEsmAhsTet4zpkYunAhGs1jni
